@@ -144,6 +144,7 @@ int main() {
 	
 	stack_char.push('(');
 	
+	cout << "Nhap bieu thuc trung to P = ";
 	getline(cin, P);
 	char delim[2] = ")";
 	char data[2] = " ";
@@ -179,6 +180,7 @@ int main() {
 		}
 	}
 
+	cout << "Bieu thuc hau to Q = " << Q << endl;
 
 	for (int i = 0; i < Q.length(); i++) {
 		if (Q[i] == ' ') {
@@ -218,7 +220,7 @@ int main() {
 		}
 	}
 	
-	cout << stack_float.top();
+	cout << "KQ = " << stack_float.top();
 	
 	return 0;
 }
